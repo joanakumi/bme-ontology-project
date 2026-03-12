@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biomedical Ontology</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f4f6fb;
+}
+
+header{
+background:#1e2a38;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+.container{
+padding:60px 10%;
+text-align:center;
+}
+
+/* center concept */
+
+.center-box{
+background:#4c6ef5;
+color:white;
+padding:25px;
+border-radius:12px;
+display:inline-block;
+font-size:20px;
+font-weight:bold;
+margin-bottom:50px;
+}
+
+/* concept grid */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:25px;
+max-width:900px;
+margin:auto;
+}
+
+/* concept cards */
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 6px 16px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+.card h3{
+margin-top:0;
+color:#4c6ef5;
+}
+
+/* explanation */
+
+.explain{
+margin-top:50px;
+line-height:1.6;
+max-width:700px;
+margin-left:auto;
+margin-right:auto;
+}
+
+/* back button */
+
+.back{
+display:inline-block;
+margin-top:40px;
+padding:10px 20px;
+background:#4c6ef5;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Biomedical Ontology</h1>
+</header>
+
+<div class="container">
+
+<div class="center-box">
+Biomedical Knowledge System
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>🧬 Genes</h3>
+<p>Genes contain biological information that influences how organisms develop and how certain diseases occur.</p>
+</div>
+
+<div class="card">
+<h3>🦠 Diseases</h3>
+<p>Diseases represent medical conditions that affect normal body functions and require diagnosis and treatment.</p>
+</div>
+
+<div class="card">
+<h3>🤒 Symptoms</h3>
+<p>Symptoms are observable signs that help identify the presence of diseases in a patient.</p>
+</div>
+
+<div class="card">
+<h3>💊 Treatment</h3>
+<p>Treatments include medicines, therapies, and procedures used to manage or cure diseases.</p>
+</div>
+
+<div class="card">
+<h3>🧑‍⚕️ Patient</h3>
+<p>The patient is the individual receiving medical care and whose health data connects different biomedical concepts.</p>
+</div>
+
+<div class="card">
+<h3>🧪 Research</h3>
+<p>Biomedical research studies diseases, genes, and treatments to improve healthcare and medical technologies.</p>
+</div>
+
+</div>
+
+<div class="explain">
+
+<p>
+Biomedical ontology organizes medical knowledge by defining how biological and medical concepts are related.
+Concepts such as genes, diseases, symptoms, treatments, and patients are connected within a structured system.
+</p>
+
+<p>
+This organization allows medical databases, researchers, and intelligent healthcare systems to interpret
+biological information accurately and support better diagnosis, research, and treatment planning.
+</p>
+
+</div>
+
+<a href="home.html" class="back">⬅ Back to Home</a>
+
+</div>
+
+</body>
+</html>

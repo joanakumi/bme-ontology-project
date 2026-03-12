@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Reference Ontology Graphic</title>
+
+<style>
+
+.lifecycle{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+margin-top:40px;
+}
+
+.stage{
+background:white;
+padding:20px;
+width:160px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+text-align:center;
+transition:0.3s;
+cursor:pointer;
+}
+
+.stage p{
+opacity:0;
+font-size:14px;
+transition:0.3s;
+}
+
+.stage:hover{
+transform:translateY(-6px);
+}
+
+.stage:hover p{
+opacity:1;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 style="text-align:center;">Product Lifecycle</h1>
+
+<div class="lifecycle">
+
+<div class="stage">
+<h3>💡 Idea</h3>
+<p>The product concept is first created.</p>
+</div>
+
+<div class="stage">
+<h3>✏️ Design</h3>
+<p>Engineers plan and design the product.</p>
+</div>
+
+<div class="stage">
+<h3>🧪 Prototype</h3>
+<p>A test model is built to check the design.</p>
+</div>
+
+<div class="stage">
+<h3>🏭 Manufacturing</h3>
+<p>The product is produced at large scale.</p>
+</div>
+
+<div class="stage">
+<h3>🔧 Use</h3>
+<p>Customers use and maintain the product.</p>
+</div>
+
+</div>
+<img src="lifecycle.png" alt="Reference Ontology Diagram" width="800">
+
+</div>
+
+<a href="home.html" class="back">⬅ Back to Home</a>
+
+</div>
+</body>
+</html>
