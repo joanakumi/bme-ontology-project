@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ontology in Product Development</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(0,0,0,0.5);
+backdrop-filter:blur(10px);
+display:flex;
+justify-content:center;
+gap:40px;
+padding:15px;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#2563eb,#7c3aed,#06b6d4);
+background-size:300% 300%;
+animation:gradientMove 10s infinite alternate;
+padding:20px;
+}
+
+@keyframes gradientMove{
+0%{background-position:left;}
+100%{background-position:right;}
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:15px;
+}
+
+.hero p{
+max-width:700px;
+font-size:18px;
+opacity:.9;
+}
+
+section{
+padding:120px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:36px;
+margin-bottom:60px;
+color:#38bdf8;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.1);
+padding:30px;
+border-radius:15px;
+backdrop-filter:blur(10px);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.03);
+background:rgba(255,255,255,0.08);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#38bdf8;
+}
+
+.lifecycle{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:25px;
+text-align:center;
+}
+
+.stage{
+padding:25px;
+background:#1e293b;
+border-radius:12px;
+transition:.3s;
+}
+
+.stage:hover{
+background:#334155;
+transform:translateY(-8px);
+}
+
+footer{
+background:#020617;
+text-align:center;
+padding:40px;
+margin-top:60px;
+}
+
+footer p{
+opacity:.7;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="#ontology">Ontology</a>
+<a href="#reference ontology">Reference Ontology</a>
+<a href="#biomedical ontology">Biomedical Ontology</a>
+<a href="#lifecycle">Product Lifecycle</a>
+<a href="#assignments">Assignments</a>
+
+</nav>
+
+
+<section class="hero">
+
+<h1>Ontology in Product Development</h1>
+
+<p>
+Group Portfolio exploring ontology concepts and their applications in biomedical engineering and smart healthcare technology.
+</p>
+
+</section>
+
+
+
+<section id="ontology">
+
+<h2 class="section-title">What is Ontology?</h2>
+<p>
+Ontology is the study of the nature of existence and the relationships between different entities. 
+In philosophy, ontology focuses on understanding what exists in the world and how different things 
+are categorized and related to each other.
+</p>
+
+<p>
+In engineering and computer science, ontology is used as a structured framework to organize knowledge 
+within a specific domain. It defines important concepts, their properties, and the relationships 
+between them so that humans and computer systems can understand and share information effectively.
+</p>
+
+<p>
+Ontologies are widely used in areas such as artificial intelligence, biomedical engineering, 
+information systems, and data science. By organizing knowledge in a structured way, ontologies 
+help improve communication, data integration, and decision-making in complex technological systems.
+</p>
+
+
+</section>
+
+</section>
+
+
+
+<section id="reference ontology">
+
+<h2 class="section-title">Reference Ontology</h2>
+
+<h2>Reference Ontology</h2>
+
+<p>
+Reference ontology is a structured framework that defines the fundamental concepts
+and relationships within a specific domain. It provides a common vocabulary that
+different researchers, engineers, and computer systems can use to describe
+knowledge in a consistent way.
+</p>
+
+<p>
+In engineering and product development, reference ontologies help organize complex
+information so that different systems can communicate and share data effectively.
+For example, when developing a smart healthcare product, a reference ontology
+might define concepts such as patient, sensor, health data, and medical alerts,
+as well as the relationships between them.
+</p>
+
+<p>
+By creating clear definitions and relationships, reference ontologies reduce
+misunderstandings and improve collaboration between teams working on the same
+technology or research problem.
+</p>
+
+<div class="card">
+<h3><a href="reference.html">
+View Reference Ontology Graphic
+</a></h3>
+</div>
+
+</section>
+
+
+
+<section id="biomedical ontology">
+
+<h2 class="section-title">Biomedical Ontology</h2>
+<p>
+Biomedical ontology focuses on organizing knowledge related to biology and
+medicine. It structures information about biological processes, diseases,
+genes, proteins, treatments, and medical data in a systematic way.
+</p>
+
+<p>
+In biomedical engineering and healthcare technology, biomedical ontologies are
+important because they allow computer systems to understand and analyze complex
+medical information. For example, a healthcare database may use a biomedical
+ontology to connect symptoms, diseases, and treatments in a logical structure.
+</p>
+
+<p>
+This type of ontology is widely used in bioinformatics, medical research,
+electronic health records, and artificial intelligence systems that analyze
+medical data. By structuring medical knowledge in a standardized way,
+biomedical ontologies support better diagnosis, research, and healthcare
+decision-making.
+</p>
+
+<div class="card">
+<h3><a href="biomedical.html">
+View Biomedical Ontology Graphic
+</a></h3>
+</div>
+
+</section>
+
+
+
+<section id="lifecycle">
+
+<h2 class="section-title">Product Lifecycle</h2>
+<p>
+Product lifecycle ontology represents the different stages that a product goes
+through from the initial idea to the final stage of use and maintenance. It
+organizes knowledge about the development process in a structured way.
+</p>
+
+<p>
+Typical stages in a product lifecycle include idea generation, concept design,
+prototype development, testing, manufacturing, product launch, and maintenance.
+By defining these stages and their relationships, product lifecycle ontology
+helps engineers and organizations manage product development more effectively.
+</p>
+
+<p>
+In engineering projects, lifecycle ontologies help teams track information,
+coordinate tasks, and maintain consistency throughout the entire development
+process. This is especially useful when multiple teams work together on complex
+products such as medical devices, smart technologies, or industrial systems.
+</p>
+
+<div class="card">
+<h3><a href="lifecycle.html">
+View Lifecycle Graphic</h3>
+</a>
+</div>
+
+</section>
+
+
+
+<section id="assignments">
+
+<h2 class="section-title">Assignment Archive</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Assignment 1</h3>
+<p>Ontology Portfolio</p>
+</div>
+
+<div class="card">
+<h3>Assignment 2</h3>
+<p>Future submission</p>
+</div>
+
+<div class="card">
+<h3>Assignment 3</h3>
+<p>Future submission</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<p>Biomedical Engineering Group Portfolio</p>
+
+<p>SRM University</p>
+
+</footer>
+
+
+</body>
+</html> 
